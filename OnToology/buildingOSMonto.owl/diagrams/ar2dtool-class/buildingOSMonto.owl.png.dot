@@ -1,0 +1,27 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:k_building" "base:ID" ; /*classes style*/
+	"base:Environmental_Engineering_Research_Institute" -> "http://www.semanticweb.org/min/ontologies/2016/10/buildingOSMonto#1513884408" [ label = "base:hasNode" ];
+	"base:Environmental_Engineering_Research_Institute" -> "http://www.semanticweb.org/min/ontologies/2016/10/buildingOSMonto#1513884395" [ label = "base:hasNode" ];
+	"base:Environmental_Engineering_Research_Institute" -> "http://www.semanticweb.org/min/ontologies/2016/10/buildingOSMonto#1513884372" [ label = "base:hasNode" ];
+	"base:Environmental_Engineering_Research_Institute" -> "http://www.semanticweb.org/min/ontologies/2016/10/buildingOSMonto#1513884358" [ label = "base:hasNode" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ffb" [ label = "owl:oneOf" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff4" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff0" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff3" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff9" [ label = "rdf:rest" ];
+	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff5" [ label = "owl:oneOf" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff8" [ label = "rdf:rest" ];
+	"NULL" -> "-5c3351fb:15fde62f00c:-7ff1" [ label = "owl:oneOf" ];
+	"base:k_building" -> "xsd:integer" [ label = "base:hasHeight" ];
+	"base:k_building" -> "-5c3351fb:15fde62f00c:-7ff2" [ label = "hasBuilding:fireproof" ];
+	"base:k_building" -> "-5c3351fb:15fde62f00c:-7ffc" [ label = "base:hasEntrance" ];
+	"base:k_building" -> "-5c3351fb:15fde62f00c:-7ff6" [ label = "base:hasWheelchair" ];
+	"base:k_building" -> "base:ID" [ label = "base:hasNode" ];
+	"base:k_building" -> "xsd:integer" [ label = "hasBuilding:levels" ];
+
+}
